@@ -305,11 +305,7 @@ echo; echo -n 'Creating cron to run script every minute.....(Default setting)'
 echo '.....done'
 echo; echo 'Installation has completed.'
 echo 'Config file is at /usr/local/ddos/ddos.conf'
-<<<<<<< HEAD
 echo 'Please send in your comments and/or suggestions to https://t.me/'
-=======
-echo 'Please send in your comments and/or suggestions to https://t.me/newbie_store24'
->>>>>>> origin/main
 
 # banner /etc/issue.net
 echo "Banner /etc/issue.net" >>/etc/ssh/sshd_config

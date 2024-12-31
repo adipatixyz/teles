@@ -68,11 +68,7 @@ function key2(){
     echo -e "${green}│ \033[1;37mPlease select your choice              ${green}│${NC}"
     echo -e "${green}└──────────────────────────────────────────┘${NC}"
     echo -e "${green}┌──────────────────────────────────────────┐${NC}"
-<<<<<<< HEAD
     echo -e "${green}│  [ 1 ]  \033[1;37mTRIAL 3 HARI      ${NC}"
-=======
-    echo -e "${green}│  [ 1 ]  \033[1;37mTRIAL 1 HARI      ${NC}"
->>>>>>> origin/main
     echo -e "${green}│  "                                        
     echo -e "${green}│  [ 2 ]  \033[1;37mMEMBER SUDAH BELI     ${NC}"
     echo -e "${green}│     "                                     
@@ -94,11 +90,7 @@ function key2(){
         APIGIT=$(cat /etc/github/api)
         EMAILGIT=$(cat /etc/github/email)
         USERGIT=$(cat /etc/github/username)
-<<<<<<< HEAD
         hhari=$(date -d "3 days" +"%Y-%m-%d")
-=======
-        hhari=$(date -d "1 days" +"%Y-%m-%d")
->>>>>>> origin/main
         mkdir /root/listip
         cd /root/listip
         wget https://raw.githubusercontent.com/adipatixyz/kebes/main/ip >/dev/null 2>&1
@@ -180,12 +172,7 @@ hhari2=$(date -d "999 days" +"%Y-%m-%d")
 mkdir /root/listip
 cd /root/listip
 wget https://raw.githubusercontent.com/adipatixyz/kebes/main/ip >/dev/null 2>&1
-
-<<<<<<< HEAD
 sed -i "/# SOGOK/a ### ${author2} ${hhari2} ${MYIP2} ON 10 SOGOK" /root/listip/ip
-=======
-sed -i "/# KONTOL/a ### ${author2} ${hhari2} ${MYIP2} ON 10 KONTOL" /root/listip/ip
->>>>>>> origin/main
 
 sleep 0.5
 
@@ -217,13 +204,7 @@ hhari3=$(date -d "999 days" +"%Y-%m-%d")
 mkdir /root/listip
 cd /root/listip
 wget https://raw.githubusercontent.com/adipatixyz/kebes/main/ip >/dev/null 2>&1
-
-<<<<<<< HEAD
 sed -i "/# PETEK/a ### ${author3} ${hhari3} ${MYIP3} ON 999" /root/listip/ip
-=======
-sed -i "/# MEMEK/a ### ${author3} ${hhari3} ${MYIP3} ON 999" /root/listip/ip
->>>>>>> origin/main
-
 sleep 0.5
 git config --global user.email "${EMAILGIT}" >/dev/null 2>&1
 git config --global user.name "${USERGIT}" >/dev/null 2>&1

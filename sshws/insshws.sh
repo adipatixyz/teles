@@ -80,13 +80,8 @@ END
 # Installing Service
 cat > /etc/systemd/system/ws.service << END
 [Unit]
-Description=Proxy Mod By memek 
-<<<<<<< HEAD
+Description=Proxy Mod By SOGOK PETEK
 Documentation=https://t.me/gemilangkinasih
-=======
-Documentation=https://t.me/memek
->>>>>>> origin/main
-After=network.target nss-lookup.target
 
 [Service]
 Type=simple
@@ -112,12 +107,8 @@ chmod +x /usr/local/bin/ws-ovpn
 # Installing Service
 cat > /etc/systemd/system/ws-ovpn.service << END
 [Unit]
-Description=Proxy Mod By NEWBIE STORE
-<<<<<<< HEAD
+Description=Proxy Mod By SOGOK PETEK
 Documentation=https://t.me/gemilangkinasih
-=======
-Documentation=https://t.me/memek
->>>>>>> origin/main
 After=network.target nss-lookup.target
 
 [Service]

@@ -38,15 +38,7 @@ fi
 checking_sc
 cd
 today=$(date -d "0 days" +"%Y-%m-%d")
-<<<<<<< HEAD
 Exp2=$(curl -sS https://raw.githubusercontent.com/adipatixyz/kebes/main/ip | grep $ipsaya | awk '{print $3}')
-=======
-<<<<<<< HEAD
-Exp2=$(curl -sS https://raw.githubusercontent.com/adipatixyz/kebes/main/ip | grep $ipsaya | awk '{print $3}')
-=======
-Exp2=$(curl -sS https://raw.githubusercontent.com/adipatixyz/kebes/main/ip | grep $ipsaya | awk '{print $3}')
->>>>>>> origin/main
->>>>>>> 8d0ecc7 (Up By Gemilang)
 d1=$(date -d "$Exp2" +%s)
 d2=$(date -d "$today" +%s)
 certificate=$(( (d1 - d2) / 86400 ))

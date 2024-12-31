@@ -23,11 +23,7 @@ chmod +x /usr/local/bin/ohpserver
 cat > /etc/systemd/system/ssh-ohp.service << END
 [Unit]
 Description=SSH OHP Redirection Service
-<<<<<<< HEAD
 Documentation=https://t.me/gemilangkinasih
-=======
-Documentation=https://t.me/memek
->>>>>>> origin/main
 After=network.target nss-lookup.target
 
 [Service]
@@ -48,11 +44,7 @@ END
 cat > /etc/systemd/system/dropbear-ohp.service << END
 [Unit]]
 Description=Dropbear OHP Redirection Service
-<<<<<<< HEAD
 Documentation=https://t.me/gemilangkinasih
-=======
-Documentation=https://t.me/memek
->>>>>>> origin/main
 After=network.target nss-lookup.target
 
 [Service]
@@ -73,11 +65,7 @@ END
 cat > /etc/systemd/system/openvpn-ohp.service << END
 [Unit]]
 Description=OpenVPN OHP Redirection Service
-<<<<<<< HEAD
 Documentation=https://t.me/gemilangkinasih
-=======
-Documentation=https://t.me/memek
->>>>>>> origin/main
 After=network.target nss-lookup.target
 
 [Service]

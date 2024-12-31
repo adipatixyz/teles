@@ -12,7 +12,7 @@ echo -e " [INFO] Downloading File"
 sleep 2
 wget ${REPO}menu/menu.zip
 wget -q -O /usr/bin/enc "${REPO}install/encrypt" ; chmod +x /usr/bin/enc
-7z x -pMemek menu.zip
+7z x -p menu.zip
 chmod +x menu/*
 enc menu/*
 mv menu/* /usr/local/sbin

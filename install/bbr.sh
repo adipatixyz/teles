@@ -16,11 +16,7 @@ Check_And_Add_Line(){
 
 Install_BBR(){
 echo "#############################################"
-<<<<<<< HEAD
 echo "Install TCP_BBR BY SOGOK PETEK..."
-=======
-echo "Install TCP_BBR BY MOMOK BOROK..."
->>>>>>> origin/main
 if [ -n "$(lsmod | grep bbr)" ];then
 echo "TCP_BBR sudah diinstall."
 echo "#############################################"
